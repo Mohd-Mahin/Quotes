@@ -1,7 +1,7 @@
 <template>
     <div class="row">
         <form>
-            <div class="col-sm-8 col-md-6 col-xs-12 col-sm-offset-2 col-md-offset-3 form-group">
+            <div class="col-sm-10 col-sm-offset-1 col-md-6 col-xs-12 col-md-offset-3 form-group">
                 <label for="quoteTextArea">Quote</label>
                 <textarea name="quoteTextArea" id="quoteTextArea" rows="3" class="form-control" v-model="quote"></textarea>
             </div>
